@@ -21,7 +21,7 @@ function setearNivel() {
     let level = localStorage.getItem('level');
     if (level === 'facil') {
         nivel = 1;
-        tiempoNivel = 1;
+        tiempoNivel = 20;
     } else if (level === 'medio') {
         nivel = 8;
         tiempoNivel = 49;
