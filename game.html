@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link  rel="stylesheet" href="assets/styles/styles.css">
+
+        
+        <title>Calculadora de Costos de Combustible - Correos</title>
+    </head>
+    <body>
+        <header class="game-container">
+            <div class="info-container">
+                <h1>TIEMPO</h1>
+                <div class="info-box" id="time"></div>
+            </div>
+            <div class="info-container">
+                <h1 id="info-level"></h1>
+                <div class="info-vidas" id="vidas"></div>
+            </div>
+            <div class="info-container">
+                <h1>PUNTUACION</h1>
+                <div class="info-box" id="puntos"></div>
+            </div>
+        </header>
+        <section id="tablero" class="tablero"></section>
+        <div id="nivel-completado" class="manual-container1" style="display: none;">
+            <div class="manual1">
+                <h1>Nivel Completado</h1>
+                <p id="info-tiempo">Tiempo sobrante: 0 segundos</p>
+                <p id="info-puntos">Puntos: 0</p>
+                <p id="info-vidas">Vidas restantes: 0</p>
+                <button id="siguiente-nivel" class="level">Siguiente Nivel</button>
+            </div>
+        </div>
+        <div id="game-over" class="manual-container1" style="display: none;">
+            <div class="game-over">
+                <h1>GAME OVER</h1>
+                <p id="info-nivel">Nivel alcanzado: 0</p>
+                <p id="info-tiempo-jugado">Tiempo jugado: 0 segundos</p>
+                <p id="info-puntuacion-total">Puntuación total: 0</p>
+                <div class="game-over-buttons">
+                    <button id="reiniciar" class="level">Reiniciar partida</button>
+                    <button id="home" class="level">Menu princial</button>
+                </div>
+            </div>
+        </div>
+        <div id="mensaje-bonificacion" class="mensaje-bonificacion" style="display: none;">
+            ¡Bonificación activada!
+        </div>
+        <script type="module" src="js/game.js"></script>
+    </body>
+</html>

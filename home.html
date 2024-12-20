@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link  rel="stylesheet" href="assets/styles/styles.css">
+
+        
+        <title>Home match!</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <a href="home.html">
+                        <img src="assets/images/logo_txikito.png" alt="Logo match!" class="logo">
+                    </a>
+                </div>
+                <section class="timer">
+                    <p><span id="countdown"></span> segundos para salir.</p>
+                </section>
+                <ul class="nav-list">
+                    <li class="nav-item active">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="manual.html">Game</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="welcome">
+            <div class="welcome-slogan">
+                <img src="assets/images/logo_redondo.png" alt="Logo match!" class="logo-redondo" id="logo-redondo">
+                <p>Bienvenido a match! Encuentra todas las parejas de cada nivel antes de que se acabe el tiempo!</p>
+                <p>Haz click en el logo para empezar a divertirte!</p>
+            </div>
+        </section>
+        <script type="module" src="js/home.js"></script>
+        <script type="module" src="js/timer.js"></script>
+    </body>
+</html>

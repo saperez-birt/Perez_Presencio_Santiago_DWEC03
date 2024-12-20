@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link  rel="stylesheet" href="assets/styles/styles.css">
+
+        <title>Instrucciones</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <a href="home.html">
+                        <img src="assets/images/logo_txikito.png" alt="Logo match!" class="logo">
+                    </a>
+                </div>
+                <section class="timer">
+                    <p><span id="countdown"></span> segundos para salir.</p>
+                </section>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="manual.html">Game</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+       <section class="manual-container">
+            <article class="manual">
+                <div>
+                    <h1>INSTRUCCIONES</h1>
+                    <ul class="instructions">
+                        <li>El objetivo principal es encontrar todas las parejas de cada nivel en el tiempo estimado.
+                            Cuentas con tres vidas al empezar el juego, y perderás una vida cada vez que no completes 
+                            el nivel a tiempo.
+                        </li><br>
+                        <li>Para revelar el contenido de una carta, haz click en ella. Haz click en dos cartas para compararlas:</li><br>
+                        <li>Si las cartas no forman una pareja, volveran a ponerse boca abajo. Si fallas 3 veces, se te restarán 
+                            10 puntos de la puntuación total.
+                        </li><br>
+                        <li>Si encuentras una pareja, sumaras 10 puntos a tu puntuación total. Encuentralas todas para 
+                            superar el nivel. ¡El tiempo que te sobre te lo llevaras al siguiente nivel!
+                        </li>
+                        <li><br></li>
+                        <li>¡¡Abre bien los ojos, en cada nivel puede haber una carta de bonificación que te de más tiempo, 
+                            más vidas o muchos puntos!! Para activar la bonificación, haz doble click en la carta especial.
+                        </li><br>
+                        <li style="text-align: center;"><h3>PUEDES PAUSAR EL JUEGO PULSADO LA TECLA 'P'</h3></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Selecciona el nivel</h2>
+                    <divc class="levels">
+                        <button class="level" id="facil">Facil</button>
+                        <button class="level" id="medio">Medio</button>
+                        <button class="level" id="dificil">Dificil</button>
+                    </div>
+                </div>
+            </article>
+       </section>
+       <script type="module" src="js/manual.js"></script>
+       <script type="module" src="js/timer.js"></script>
+    </body>
+</html>

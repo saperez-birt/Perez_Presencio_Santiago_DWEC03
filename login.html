@@ -1,0 +1,49 @@
+<!-- https://es.javascript.info/task/shuffle -->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link  rel="stylesheet" href="assets/styles/styles.css">
+
+        
+        <title>Login</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <a href="login.html">
+                        <img src="assets/images/logo_txikito.png" alt="Logo match!" class="logo">
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="login-container">
+            <form class="login" id="login">
+                <h1>Iniciar Sesión</h1>
+                <article class="login-item">
+                    <label for="nombre">Nombre:</label><br>
+                    <input id="nombre" name="nombre" type="text" placeholder="Introduce tu nombre aquí" autocomplete="username" required>
+                </article>
+                <article class="login-item">
+                    <label for="current-password">Contraseña:</label><br>
+                    <input id="current-password" name="current-password" type="password" placeholder="Introduce tu contraseña aquí" autocomplete="current-password" aria-describedby="password-constraints" required>
+                </article>
+                <button type="submit" class="login-button">Iniciar Sesión</button>
+            </form>
+        </section>
+        <script type="module" src="js/login.js"></script>
+    </body>
+</html>
