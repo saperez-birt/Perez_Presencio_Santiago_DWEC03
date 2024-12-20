@@ -288,5 +288,5 @@ document.getElementById('reiniciar').addEventListener('click', () => {
 });
 
 document.getElementById('home').addEventListener('click', () => {
-    window.location.href = 'manual.html';
+    window.location.href = 'home.html';
 });
