@@ -231,7 +231,6 @@ function iniciarTemporizador() {
                 iniciarJuego();
             } else {
                 mostrarPanelGameOver();
-                alert(`Juego terminado. Nivel alcanzado: ${nivel}, Puntuación: ${puntuacion}`);
             }
         }
     }, 1000);
